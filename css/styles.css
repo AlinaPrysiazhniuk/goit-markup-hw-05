@@ -258,6 +258,48 @@ background-position: center;
   cursor: pointer;
 }
 
+.backdrop.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  opacity: 1;
+  visibility: visible;
+  /* transition: oppacite 250ms ; */
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 528px;
+  height: 581px;
+background: #FFFFFF;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 4px;
+}
+
+
+button[data-modal-close] {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+width: 30px;
+height: 30px;
+border: 1px solid #0000001A;
+border-radius: 50%;
+}
+
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
