@@ -533,7 +533,7 @@ body {
 
 .team-soc-icon {
   fill: var(--icon-first-color);
-  transition: backgroud-color var(--animation);
+  transition: fill var(--animation);
 }
 
 .team-soc-link:hover,
@@ -543,7 +543,6 @@ body {
 
 .team-soc-link:hover .team-soc-icon,
 .team-soc-link:focus .team-soc-icon {
-  background-color: var(--icon-backgroud-color-hover);
   fill: var(--icon-soc-color-hover);
 }
 
@@ -685,7 +684,7 @@ body {
 
 .footer-soc-icon {
   fill: var(--accent-color-text);
-  transition: background-color var(--animation), fill var(--animation);
+  transition: fill var(--animation);
 }
 
 .footer-soc-link:hover,
@@ -695,7 +694,6 @@ body {
 
 .footer-soc-link:hover .team-soc-icon,
 .footer-soc-link:focus .team-soc-icon {
-  background-color: var(--icon-backgroud-color-hover);
   fill: var(--icon-soc-color-hover);
 }
 
